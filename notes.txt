@@ -1,0 +1,11 @@
+1. created the app using create-react-app
+2. deleted the unwanted files and pics
+3.uploaded the json file (api)
+4. installed react-bootstrap.
+5. dwnlod theme from bootwatch(min.css)
+6. copy in src file
+7.import it in index.js (available for all pages or components)
+8. created header component.
+9. created footer component.
+10.created Home component. (Hotel).
+11.api calling. state ,api fuction ol created
