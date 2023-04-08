@@ -6,7 +6,7 @@ function Header() {
     <div>
         <Navbar bg="black" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src="https://logos-world.net/wp-content/uploads/2021/02/Expedia-Symbol.png"

@@ -2,6 +2,7 @@ import {React,useState,useEffect} from 'react'
 import HotelCards from './HotelCards'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './Hotelanim.css'
 
 function Hotel() {
     // state to hold data from api
@@ -26,7 +27,7 @@ function Hotel() {
     <Row>
         {
             hotelList.map(item=>(
-                <Col lg={4} md={6} className="mt-4 p-5">
+                <Col id='cal' lg={4} md={6} className="mt-4 p-5">
                 <HotelCards hoteldata={item}/>
                 </Col>
             ))

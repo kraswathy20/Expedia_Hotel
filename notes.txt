@@ -14,4 +14,7 @@
 14. Routing is done. 
 15.Browser Routing is done in the root component(app.js) . app.js's selector is given in the index.js
     so we have to import and use Browser Router there.
-16.
+16.paths are added to the components in app.js
+17. Riderection is done using Link Component in react-router-dom
+18
+
