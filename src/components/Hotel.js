@@ -1,4 +1,7 @@
 import {React,useState,useEffect} from 'react'
+import HotelCards from './HotelCards'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Hotel() {
     // state to hold data from api
@@ -20,7 +23,15 @@ function Hotel() {
         fetchData()
     },[])
   return (
-    <div>Hotel</div>
+    <Row>
+        {
+            hotelList.map(item=>(
+                <Col lg={4} md={6} className="mt-4 p-5">
+                <HotelCards hoteldata={item}/>
+                </Col>
+            ))
+        }
+    </Row>
   )
 }
 

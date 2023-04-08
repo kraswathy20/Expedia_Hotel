@@ -9,3 +9,9 @@
 9. created footer component.
 10.created Home component. (Hotel).
 11.api calling. state ,api fuction ol created
+12. created a new component for cards
+13. Data is shared from parent to child using props.
+14. Routing is done. 
+15.Browser Routing is done in the root component(app.js) . app.js's selector is given in the index.js
+    so we have to import and use Browser Router there.
+16.
